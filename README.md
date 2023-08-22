@@ -30,6 +30,12 @@
 <img height='180' src="https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=tokyonight" align="center" />
 </div>  
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 ![](https://raw.githubusercontent.com/Similarityoung/Similarityoung/main/assets/github-contribution-grid-snake.svg)
 
 </div>
