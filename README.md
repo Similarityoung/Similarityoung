@@ -26,8 +26,8 @@
 ![Similarityoung's GitHub stats](https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=tokyonight)
 -->
 <div align="left">
-<img height='180' src="https://github-readme-stats.vercel.app/api/top-langs/?username=Similarityoung&layout=compact&langs_count=8&theme=tokyonight" align="center" />
-<img height='180' src="https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=tokyonight" align="center" />
+  <img height='180' src="https://github-readme-stats.vercel.app/api/top-langs/?username=Similarityoung&layout=compact&langs_count=8&theme=tokyonight" align="center" />
+  <img height='180' src="https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=tokyonight" align="center" />
 </div>  
 
 <picture>
@@ -35,8 +35,4 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Similarityoung/Similarityoung/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/Similarityoung/Similarityoung/output/github-contribution-grid-snake.svg" />
 </picture>
-
-</div>
-
-</div>
 
