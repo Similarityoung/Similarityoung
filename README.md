@@ -7,7 +7,6 @@
 
 <!-- About me 关于我 -->
 
-<p>大家好，我是杨相似。</p>
 <p><strong>We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.&emsp;&emsp;</strong></p>
 
 </td></tr>
