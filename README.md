@@ -15,7 +15,6 @@
 ## Github Statistics 📈
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=graywhite" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Similarityoung&theme=graywhite" alt="GitHub Streak" height="170"/>
 </div>
 
 <picture aligen="center">
