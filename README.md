@@ -29,11 +29,11 @@ YAML                 13 mins               ▒░░░░░░░░░░░�
 ## Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
-- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
-- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
-- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
-- 🚀 Pushed updates to [Similarityoung/dubbo-admin](https://github.com/Similarityoung/dubbo-admin)<br>
+- 📌 Pushed updates to [Similarityoung/DeepClaude](https://github.com/Similarityoung/DeepClaude)<br>
+- 💬 Commented in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 💬 Commented in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 💬 Commented in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 💬 Commented in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ## Contributions
