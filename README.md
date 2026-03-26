@@ -1,35 +1,31 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Hi%2C%20I%27m%20Similarityoung%20👋&fontSize=50&animation=scaleIn&fontAlignY=35&desc=Being%20lazy%20is%20the%20way%20of%20life.&descSize=20&descAlignY=55&descAlign=50)
+# Similarityoung
 
-## About me
+Backend-focused student developer building with Go and exploring agent systems.
 
-- 🎓 Currently a student and backend enthusiast, exploring Java and Go.
+## Now
 
-- 📖 Eager to learn everything about backend technologies, currently diving into RPC frameworks and distributed systems, with plans to study MIT 6.824.
+- Building with Go and experimenting with agent workflows.
+- Learning Java and Python through real projects.
+- Interested in backend engineering, RPC, and distributed systems.
 
-- 🌟 Future Goals: Expand tech stack and contribute to OSPP.
+## Experience
 
-- 🎮 Fun Fact: Avid Binding of Isaac: Rebirth player and sleep enthusiast.
+- Completed OSPP with the dubbo-go-pixiu AI gateway.
 
----
+## This Week I Spent My Time On
 
-## Github Statistics 📈
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Similarityoung&show_icons=true&theme=graywhite" alt="GitHub Stats" height="170"/>
-</div>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-<picture aligen="center">
+## Recent Activity
+
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+
+## Contributions
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Similarityoung/Similarityoung/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Similarityoung/Similarityoung/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/Similarityoung/Similarityoung/output/github-contribution-grid-snake.svg" />
 </picture>
-
----
-
-![](https://capsule-render.vercel.app/api?type=transparent&height=100&text=Similarityoung&fontSize=50&fontColor=9370DB&desc=Being%20lazy%20is%20the%20way%20of%20life.&descSize=20&descAlignY=75&descAlign=60)
-
-<div align="center">
-  <p><i>Thanks for visiting my GitHub profile! Feel free to connect or check out my projects.</i></p>
-  <br>
-</div>
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=footer)

@@ -1,0 +1,13 @@
+settings:
+  username: "Similarityoung"
+  commit_msg: "Update README with recent activity"
+  max_lines: 5
+  readme_file: "./README.md"
+  disabled_events:
+    - "comments"
+    - "wiki_create"
+    - "added_member"
+    - "new_star"
+  ignored_repos:
+    - "Similarityoung/Similarityoung"
+  line_prefix: "- "
