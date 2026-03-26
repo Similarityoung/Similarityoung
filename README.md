@@ -20,6 +20,11 @@ Backend-focused student developer building with Go and exploring agent systems.
 ## Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
+- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 🗨️ Left a comment in [apache/dubbo-go](https://github.com/apache/dubbo-go)<br>
+- 🚀 Pushed updates to [Similarityoung/dubbo-admin](https://github.com/Similarityoung/dubbo-admin)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ## Contributions
