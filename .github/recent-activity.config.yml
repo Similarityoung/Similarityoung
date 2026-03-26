@@ -4,6 +4,7 @@ settings:
   max_lines: 5
   readme_file: "./README.md"
   disabled_events:
+    - "comments"
     - "wiki_create"
     - "added_member"
     - "new_star"
