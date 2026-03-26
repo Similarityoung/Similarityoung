@@ -15,6 +15,15 @@ Backend-focused student developer building with Go and exploring agent systems.
 ## This Week I Spent My Time On
 
 <!--START_SECTION:waka-->
+
+```txt
+Go                   23 hrs 21 mins        ████████████████████░░░░░   79.80 %
+Markdown             4 hrs 32 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.51 %
+Vue.js               28 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
+TypeScript           15 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
+YAML                 13 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.79 %
+```
+
 <!--END_SECTION:waka-->
 
 ## Recent Activity
