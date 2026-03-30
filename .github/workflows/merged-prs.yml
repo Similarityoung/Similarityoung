@@ -1,0 +1,121 @@
+name: merged prs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 1 * * *"
+
+jobs:
+  update-merged-prs:
+    name: update merged prs section
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update merged PR section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          from pathlib import Path
+
+          username = "Similarityoung"
+          per_page = 3
+          query = f"author:{username} is:pr is:merged -repo:Similarityoung/simiclaw sort:updated-desc"
+          params = urllib.parse.urlencode({"q": query, "per_page": per_page})
+          api_url = f"https://api.github.com/search/issues?{params}"
+
+          token = os.environ.get("GITHUB_TOKEN")
+          if not token:
+              raise RuntimeError("GITHUB_TOKEN is required.")
+
+          req = urllib.request.Request(api_url)
+          req.add_header("Accept", "application/vnd.github+json")
+          req.add_header("Authorization", f"Bearer {token}")
+          req.add_header("User-Agent", "merged-prs-readme-workflow")
+
+          try:
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  payload = json.load(resp)
+          except urllib.error.HTTPError as exc:
+              detail = exc.read().decode("utf-8", "ignore")
+              raise RuntimeError(f"GitHub API failed with {exc.code}: {detail}") from exc
+
+          icon_map = {
+              "feat": "✨",
+              "fix": "🐛",
+              "chore": "🧹",
+              "docs": "📝",
+              "test": "🧪",
+              "refactor": "♻️",
+              "perf": "⚡",
+              "ci": "🤖",
+              "build": "🏗️",
+              "style": "🎨",
+              "revert": "⏪",
+          }
+
+          def icon_for_title(title: str) -> str:
+              match = re.match(r"^\s*([a-zA-Z]+)(?:\([^)]+\))?(?:!)?:", title)
+              if match:
+                  pr_type = match.group(1).lower()
+                  return icon_map.get(pr_type, "🔧")
+              return "🔧"
+
+          items = payload.get("items", [])
+          lines = []
+          for item in items:
+              repo_url = item.get("repository_url", "")
+              repo_name = "/".join(repo_url.rstrip("/").split("/")[-2:]) if repo_url else "unknown/unknown"
+              number = item.get("number")
+              title = (item.get("title") or "").replace("\n", " ").strip()
+              html_url = item.get("html_url", "")
+              icon = icon_for_title(title)
+              lines.append(f"- {icon} [{repo_name}#{number}]({html_url}) - {title}")
+
+          if not lines:
+              lines = ["- ✅ No merged PRs found recently."]
+
+          readme_path = Path("README.md")
+          text = readme_path.read_text(encoding="utf-8")
+          start = "<!--START_SECTION:merged_prs-->"
+          end = "<!--END_SECTION:merged_prs-->"
+
+          start_idx = text.find(start)
+          end_idx = text.find(end)
+          if start_idx == -1 or end_idx == -1 or end_idx < start_idx:
+              raise RuntimeError("README merged_prs markers are missing or invalid.")
+
+          content_start = start_idx + len(start)
+          new_block = "\n" + "\n".join(lines) + "\n"
+          updated = text[:content_start] + new_block + text[end_idx:]
+
+          if updated != text:
+              readme_path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update merged PRs section"
+          git push origin main
