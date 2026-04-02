@@ -29,9 +29,9 @@ Vue.js            22 mins               █░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- 🧹 [apache/dubbo-go#3029](https://github.com/apache/dubbo-go/pull/3029) - chore: update tag and polaris from config to global
 - ✨ [apache/dubbo-admin#1429](https://github.com/apache/dubbo-admin/pull/1429) - Feat: Enhance service method retrieval and invocation features
 - 🧹 [apache/dubbo-go#2982](https://github.com/apache/dubbo-go/pull/2982) - chore(router): replace config with global in affinity
-- 🧪 [apache/dubbo-go#3152](https://github.com/apache/dubbo-go/pull/3152) - test: enhance triple stream validation in unit tests
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
