@@ -29,9 +29,9 @@ Vue.js            22 mins               █░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- ✨ [ThinkInAIXYZ/go-mcp#136](https://github.com/ThinkInAIXYZ/go-mcp/pull/136) - feat: enhance response handling for JSON content types
 - ♻️ [dubbo-go-pixiu/dubbo-go-pixiu#11](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu/pull/11) - refactor: streamline sync-to-upstream workflow and improve comments
 - 🧹 [apache/dubbo-go#3029](https://github.com/apache/dubbo-go/pull/3029) - chore: update tag and polaris from config to global
-- ✨ [apache/dubbo-admin#1429](https://github.com/apache/dubbo-admin/pull/1429) - Feat: Enhance service method retrieval and invocation features
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
