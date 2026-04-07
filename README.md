@@ -29,9 +29,9 @@ JSON             14 mins               █░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
-- 🔧 [apache/dubbo-go-pixiu#770](https://github.com/apache/dubbo-go-pixiu/pull/770) - doc: add documentation to mcp config
-- ✨ [dubbo-go-pixiu/dubbo-go-pixiu#6](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu/pull/6) - feat: enhance upstream sync workflow configuration
-- ✨ [apache/dubbo-go-pixiu#769](https://github.com/apache/dubbo-go-pixiu/pull/769) - feat(MCP): enhance streamable http capability
+- ✨ [apache/dubbo-admin#1429](https://github.com/apache/dubbo-admin/pull/1429) - Feat: Enhance service method retrieval and invocation features
+- 🧪 [apache/dubbo-go#3152](https://github.com/apache/dubbo-go/pull/3152) - test: enhance triple stream validation in unit tests
+- 🐛 [dubbo-go-pixiu/dubbo-go-pixiu#40](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu/pull/40) - fix(benchmark): improve performance tests and cleanup code
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
