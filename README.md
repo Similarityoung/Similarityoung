@@ -29,9 +29,9 @@ Bash       0 secs                ░░░░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- ✨ [apache/dubbo-go-pixiu-samples#135](https://github.com/apache/dubbo-go-pixiu-samples/pull/135) - feat: Remove dubbogo/simple/resolve and update triple protocol to generic style
 - ✨ [apache/dubbo-admin#1429](https://github.com/apache/dubbo-admin/pull/1429) - Feat: Enhance service method retrieval and invocation features
 - 🧪 [apache/dubbo-go#3152](https://github.com/apache/dubbo-go/pull/3152) - test: enhance triple stream validation in unit tests
-- 🐛 [dubbo-go-pixiu/dubbo-go-pixiu#40](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu/pull/40) - fix(benchmark): improve performance tests and cleanup code
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
