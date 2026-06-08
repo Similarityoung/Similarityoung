@@ -29,9 +29,9 @@ Git Config   1 hr 15 mins          ██▓░░░░░░░░░░░░
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- 🐛 [apache/dubbo-go-pixiu-samples#157](https://github.com/apache/dubbo-go-pixiu-samples/pull/157) - fix: auto-detect native GOARCH instead of hardcoding amd64
 - ✨ [apache/dubbo-go-pixiu-samples#135](https://github.com/apache/dubbo-go-pixiu-samples/pull/135) - feat: Remove dubbogo/simple/resolve and update triple protocol to generic style
 - ✨ [apache/dubbo-admin#1429](https://github.com/apache/dubbo-admin/pull/1429) - Feat: Enhance service method retrieval and invocation features
-- ✨ [apache/dubbo-go-pixiu#862](https://github.com/apache/dubbo-go-pixiu/pull/862) - Feat: add some dubbo config and use new config style
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
