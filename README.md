@@ -29,9 +29,9 @@ CSS          1 hr 45 mins          ██░░░░░░░░░░░░░
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- 🤖 [apache/dubbo-go-pixiu#1033](https://github.com/apache/dubbo-go-pixiu/pull/1033) - ci: add Docker build validation and update action runtimes
 - 🐛 [apache/dubbo-go-pixiu#1031](https://github.com/apache/dubbo-go-pixiu/pull/1031) - fix(ci): pin formatter and disable JAR download redirects
 - 🐛 [apache/dubbo-go-pixiu-samples#157](https://github.com/apache/dubbo-go-pixiu-samples/pull/157) - fix: auto-detect native GOARCH instead of hardcoding amd64
-- ✨ [apache/dubbo-go-pixiu-samples#135](https://github.com/apache/dubbo-go-pixiu-samples/pull/135) - feat: Remove dubbogo/simple/resolve and update triple protocol to generic style
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
