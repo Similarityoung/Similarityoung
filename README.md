@@ -29,9 +29,9 @@ Image (svg)   38 mins               █░░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- 🐛 [apache/dubbo-go-pixiu#1060](https://github.com/apache/dubbo-go-pixiu/pull/1060) - fix: use canonical gRPC backend method paths
 - 🤖 [apache/dubbo-go-pixiu#1044](https://github.com/apache/dubbo-go-pixiu/pull/1044) - ci: retry Go module downloads and remove upstream sync
 - 🤖 [apache/dubbo-go-pixiu#1033](https://github.com/apache/dubbo-go-pixiu/pull/1033) - ci: add Docker build validation and update action runtimes
-- 🐛 [apache/dubbo-go-pixiu#1031](https://github.com/apache/dubbo-go-pixiu/pull/1031) - fix(ci): pin formatter and disable JAR download redirects
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
