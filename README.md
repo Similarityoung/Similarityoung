@@ -17,11 +17,11 @@ Backend-focused student developer building with Go and exploring agent systems.
 <!--START_SECTION:waka-->
 
 ```txt
-Go               2 hrs 38 mins         ████████████░░░░░░░░░░░░░   48.42 %
-Markdown         1 hr 34 mins          ███████▒░░░░░░░░░░░░░░░░░   28.87 %
-Other            35 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.95 %
-YAML             23 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.03 %
-JSON             14 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 %
+Markdown      23 hrs 7 mins         ██████████████▒░░░░░░░░░░   57.45 %
+Other         2 hrs 55 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.26 %
+TypeScript    2 hrs 46 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.88 %
+JSON          2 hrs 38 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.56 %
+Python        1 hr 49 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.54 %
 ```
 
 <!--END_SECTION:waka-->
@@ -29,9 +29,9 @@ JSON             14 mins               █░░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
-- 🔧 [apache/dubbo-go-pixiu#770](https://github.com/apache/dubbo-go-pixiu/pull/770) - doc: add documentation to mcp config
-- ✨ [dubbo-go-pixiu/dubbo-go-pixiu#6](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu/pull/6) - feat: enhance upstream sync workflow configuration
-- ✨ [apache/dubbo-go-pixiu#769](https://github.com/apache/dubbo-go-pixiu/pull/769) - feat(MCP): enhance streamable http capability
+- 🐛 [apache/dubbo-go-pixiu#1060](https://github.com/apache/dubbo-go-pixiu/pull/1060) - fix: use canonical gRPC backend method paths
+- 🤖 [apache/dubbo-go-pixiu#1044](https://github.com/apache/dubbo-go-pixiu/pull/1044) - ci: retry Go module downloads and remove upstream sync
+- 🤖 [apache/dubbo-go-pixiu#1033](https://github.com/apache/dubbo-go-pixiu/pull/1033) - ci: add Docker build validation and update action runtimes
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
