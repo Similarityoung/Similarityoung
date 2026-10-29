@@ -29,9 +29,9 @@ TeX              3 hrs 6 mins          ██░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- ✨ [Similarityoung/SimWeb#5](https://github.com/Similarityoung/SimWeb/pull/5) - feat: reuse signed access after Turnstile verification
+- 📝 [Similarityoung/SimWeb#4](https://github.com/Similarityoung/SimWeb/pull/4) - docs: streamline README and add maintenance guide
 - 🐛 [apache/dubbo-go-pixiu#1060](https://github.com/apache/dubbo-go-pixiu/pull/1060) - fix: use canonical gRPC backend method paths
-- 🤖 [apache/dubbo-go-pixiu#1044](https://github.com/apache/dubbo-go-pixiu/pull/1044) - ci: retry Go module downloads and remove upstream sync
-- 🤖 [apache/dubbo-go-pixiu#1033](https://github.com/apache/dubbo-go-pixiu/pull/1033) - ci: add Docker build validation and update action runtimes
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
