@@ -17,11 +17,11 @@ Backend-focused student developer building with Go and exploring agent systems.
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown         7 hrs 48 mins         ████████░░░░░░░░░░░░░░░░░   31.84 %
-Swift            6 hrs 1 min           ██████░░░░░░░░░░░░░░░░░░░   24.54 %
-Other            3 hrs 39 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.91 %
-TeX              2 hrs 49 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.49 %
-Python           2 hrs 40 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.93 %
+Markdown         10 hrs 32 mins        ███████░░░░░░░░░░░░░░░░░░   29.59 %
+Other            6 hrs 3 mins          ████░░░░░░░░░░░░░░░░░░░░░   17.00 %
+Swift            6 hrs 1 min           ████░░░░░░░░░░░░░░░░░░░░░   16.91 %
+Python           3 hrs 9 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.88 %
+TeX              3 hrs 6 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 %
 ```
 
 <!--END_SECTION:waka-->
