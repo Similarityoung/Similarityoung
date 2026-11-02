@@ -29,9 +29,9 @@ Go               2 hrs 3 mins          ██░░░░░░░░░░░�
 ## Recent Merged PRs
 
 <!--START_SECTION:merged_prs-->
+- 🐛 [apache/dubbo-go-pixiu#1072](https://github.com/apache/dubbo-go-pixiu/pull/1072) - fix(router): enforce headers for path route candidates
 - ✨ [Similarityoung/SimWeb#7](https://github.com/Similarityoung/SimWeb/pull/7) - feat: apply the design language and add UI CI
 - ✨ [Similarityoung/SimWeb#5](https://github.com/Similarityoung/SimWeb/pull/5) - feat: reuse signed access after Turnstile verification
-- 📝 [Similarityoung/SimWeb#4](https://github.com/Similarityoung/SimWeb/pull/4) - docs: streamline README and add maintenance guide
 <!--END_SECTION:merged_prs-->
 
 ## Contributions
