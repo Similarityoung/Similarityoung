@@ -17,11 +17,11 @@ Backend-focused student developer building with Go and exploring agent systems.
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown         11 hrs 50 mins        ████████░░░░░░░░░░░░░░░░░   30.45 %
-Python           10 hrs 53 mins        ███████░░░░░░░░░░░░░░░░░░   27.99 %
-Other            3 hrs 3 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.88 %
-JSON             2 hrs 26 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.29 %
-HTML             2 hrs 14 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
+Markdown         9 hrs 55 mins         ████████░░░░░░░░░░░░░░░░░   31.04 %
+Python           8 hrs 45 mins         ███████░░░░░░░░░░░░░░░░░░   27.38 %
+JSON             2 hrs 25 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.57 %
+HTML             2 hrs 12 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 %
+Other            2 hrs 7 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 %
 ```
 
 <!--END_SECTION:waka-->
